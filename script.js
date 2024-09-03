@@ -64,29 +64,120 @@
 // Task:-5
 //*******
 
-let nameStr = "hello my name is walid hasan"; //0,6,9,14,21
-let splitStr = nameStr.split(" ");
-let change1 = splitStr[0] = "Hello";
-let change2 = splitStr[1] = "My";
-let change3 = splitStr[2] = "Name";
-let change4 = splitStr[3] = "Is";
-let change5 = splitStr[4] = "Walid";
-let change6 = splitStr[5] = "Hasan";
+// let nameStr = "hello my name is walid hasan"; //0,6,9,14,21
+// let splitStr = nameStr.split(" ");
+// let change1 = splitStr[0] = "Hello";
+// let change2 = splitStr[1] = "My";
+// let change3 = splitStr[2] = "Name";
+// let change4 = splitStr[3] = "Is";
+// let change5 = splitStr[4] = "Walid";
+// let change6 = splitStr[5] = "Hasan";
 
-console.log(splitStr);
+// console.log(splitStr);
 
-for(let check of splitStr){
-    console.log(check);
+// for(let check of splitStr){
+//     console.log(check);
+// }
+
+
+// Object Task
+
+
+
+// Task:-1
+//*******
+
+
+
+// const colors = {
+//     red: "#ff0000",
+//     green: "#00ff00",
+//     blue: "#0000ff",
+//     "golden rod": '#daa520'
+// };
+
+// let outColors = colors["golden rod"];
+// console.log(outColors);
+
+
+
+
+// Task:-2
+//*******
+
+
+
+// const car = {
+//     make: "Toyota",
+//     model: "Corolla",
+//     year: 2020
+// };
+
+// car['passenger capacity'] = 3;
+
+// console.log(car);
+
+
+
+
+// Task:-3
+//*******
+
+
+
+// const student = {
+//     name: "Hamim Sakep",
+//     id: 5421,
+//     physics: {
+//         subject: "HSC Physics",
+//         author: "Shahjahan Tapan",
+//         marks: 30
+//     }
+// };
+
+// let mark = student.physics;
+// console.log(mark);
+
+
+
+// Task:-4
+//*******
+
+
+
+
+// let student_info = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+
+// let keys = Object.keys(student_info);
+// console.log(keys);
+// let len = keys.length;
+// console.log(len);
+
+
+
+
+// Task:-5
+//*******
+
+
+
+let myObject = {
+
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
+    isStudent: true
+
+};
+
+
+for(let obj in myObject){
+    console.log("key: " + obj + " || " + "Type: " + typeof myObject[obj]);
 }
 
-
-
-// for(let check of upper){
-//      console.log(check);
-// }
-// for(let i = 0; i < nameStr.length; i++){
-// if(i === 0 || i === 6 || i === 9 || i === 14 || i === 17 || i === 23){
-//    console.log(nameStr[i].toUpperCase());
-// }
-//     console.log(nameStr[i]);
-// }
+// jodi ay code console.log(info) likha hoi tahole property print korbe ar jodi console.log(stu_describe[info]) tahole value print korbe and jodi console.log(stu_describe) likhle object take array hishabe print korbe.
